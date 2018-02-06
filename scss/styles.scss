@@ -528,10 +528,18 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p,li {
+    p {
         color: $text;
         font-size: 0.9em;
         margin: 0;
+    }
+
+    ul{
+        li{
+            color: $text;
+            font-size: 0.9em;
+            margin: 0;
+        }
     }
 }
 
