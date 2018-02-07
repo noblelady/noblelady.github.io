@@ -642,6 +642,7 @@ footer {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
+    background: #fff;
 
     h2 {
         color: $heading;
@@ -710,6 +711,7 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
+    background: $background-alt;
 
     h2 {
         color: $heading;
@@ -728,7 +730,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
+        background: darken($background-alt, 10%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -826,7 +828,8 @@ footer {
 
     h3 {
         font-weight: 500;
-        margin: 0 0 15px 0;
+        float: left;
+        margin: 0;
         color: $heading;
     }
 
@@ -835,6 +838,11 @@ footer {
         clear: both;
         font-weight: 500;
         margin: 0 0 15px 0;
+    }
+
+    span {
+        color: $text;
+        float: right;
     }
 
     p, ul {
