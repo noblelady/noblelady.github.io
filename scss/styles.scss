@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #7b82db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -446,7 +446,8 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 50px 15px;
+    text-align: center;
     border-bottom: 1px solid $border;
 
     h2 {
@@ -455,7 +456,7 @@ footer {
 
     p {
         color: $text;
-        margin: 0;
+        margin: 0 20px 0 20px;
     }
 }
 
@@ -473,6 +474,7 @@ footer {
     h2 {
         color: $heading;
     }
+
 }
 
 #experience-timeline {
