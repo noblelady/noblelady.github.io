@@ -1,0 +1,178 @@
+$background-color: #DEE0E0; //blue-gray
+$dark-cream: #AA8F66; //dark cream
+$dark-blue: #437C90; //dark blue
+$orange: #EC9A29; //orange
+$lavender: #7B82AA; //lavender
+$blueberry: #6E7499; //blueberry
+body{
+    background-color: $dark-blue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#mainContent{
+    
+}
+.centered{
+    margin:0 auto;
+    text-align:center;
+}  
+#sourcesAndTags{
+    margin-left: 10%;
+}
+
+.roundedBox{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 3em;
+    padding: 10px;
+    width: 40%;
+    display: inline-table;
+    background-color:$background-color;
+}
+
+.blueButton{ //not really blue anymore...
+    background-color: $orange;
+    min-width: 3em;
+    display:inline-block;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+	height:2.4em;
+	text-align:center;
+	line-height:2.1em;
+	border-radius: 2px;
+	color:white;
+}
+
+.blueButton:hover{
+    background-color: orange;
+}
+
+#urlInput input{
+    width:40vw;
+    line-height:2em;
+    padding:4px;
+    margin-left:10px;
+    margin-bottom: 30px;
+}
+
+#urlButton{
+    margin-bottom: 30px;
+}
+
+#urlInput{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+//modal stuff
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75%; /* Could be more or less, depending on screen size */
+    height: 60%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalLeft{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: inherit;
+    padding: 1em;
+}
+
+#modalRight{
+  width: 40%;
+  float: right;
+  display: inherit;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+.padded{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.bulb{
+    margin-bottom: -5px
+}
+#title{
+    font-size: 45pt;
+    margin-bottom: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.ui-state-default{
+    background: #e6e6e6;
+}
+.ui-widget{
+    font-family:inherit;
+}
+.ui-widget-content{
+    margin-top:-22px;
+    margin-bottom: 20px
+}

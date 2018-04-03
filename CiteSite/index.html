@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="img/icon.png" type="image/png" >
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/output.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+<title>The Cite Site</title>
+</head>
+
+<body>
+<h1 id="title"><img class="bulb" src="img/icon.png" width="100px"/>The Cite Site</h1>
+<!---Testing for MLA citiations--->
+
+
+<!--- Testing for MLA citiations--->
+
+<div id="mainContent">
+    <div class="centered" id="urlInput">
+        <input type="text" value="URL" id="textfieldInfo"/>
+        <div class="blueButton" id="urlButton">+</div>
+    </div>
+    <div id="sourcesAndTags">
+        <div class="roundedBox">
+            <div id="sources">
+                <h3>Sources</h3>
+                <hr>
+            </div>
+            <!--<div href="#" class="blueButton" style="padding: 0px 7px;position:relative;left:80%;">Export</div>-->
+        </div>
+        <div class="roundedBox" id="tags">
+            <h3>Tags</h3>
+            <hr>
+            <div id="accordion">
+              
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <div id="modalLeft">
+      <h2>Article:</h2>
+      <p id="article">way back when kanye’s last album came out i thought “real friends” was the best track and i also found it really upsetting bc i know exactly the kind of feeling he’s talking about where like… relationships are slipping away from you and you feel sad and isolated but you also don’t really have the energy or inclination to do anything about it, so it’s kind of your fault but you’re also angry at the other person for not doing more (i can’t relate to the $250,000 laptop thing but you know) and god when he says “i guess i get what i deserve, don’t i” it kind of breaks my heart
+      <br>but anyway i’ve been unironically worried about kanye for a while and idk i’m listening to the life of pablo rn and that song just sounds different and darker now what with all the stuff that’s been going on with him and I Hope Kanye Is Ok</p> 
+    </div>
+    <div id="modalRight">
+      <!---Make Citation--->
+      <div id = "citationForm">
+        <h3>Create citation below:</h3>
+        <p> Author Names (semi-comma separated) <input type="text" id="Name" placeholder="Smith, John"></p>
+        <p><input type="text" id="bookName" placeholder="Book"></p>
+        
+          <input type="text" id="cityName" placeholder="City">
+          <input type="text" id="publisherName" placeholder="Publisher">
+          <input type="text" id="yearPub" placeholder="Year Published">
+      
+        <p id="citiationText">Last, First M. <i>Book</i>. City: Publisher, Year Published.</p>
+        <div class="blueButton padded" id="bookCite"> Create Citiation </div>
+      </div>       
+      <hr>
+      <div id="quote">
+        <h3>Add tags below:</h3>
+        <p id="selectedText">...</p>
+        <input type="text" id="quoteTags" placeholder="#tag#tag"/>
+        <!---<input id="autocomplete">-->
+        <div class="blueButton padded" id="quoteCreate"> Create Quote </div>
+      </div>
+      <div id="tagsFromArticle">
+          
+      </div>
+        
+    </div>
+    
+  </div>
+
+</div>
+
+<!---<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/app.js"></script>
+<script src="js/bundle.js"></script>
+
+</body>
+</html>
